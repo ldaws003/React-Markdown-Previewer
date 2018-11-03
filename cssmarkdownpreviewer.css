@@ -1,0 +1,28 @@
+
+#flexer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#editor {
+  width: 45vw;
+  margin-left: 3px;
+  min-width: 350px;
+  height: 500px;
+  display: inline-block;
+  resize: none;
+}
+
+#preview {
+  width: 50vw;
+  min-width: 350px;
+  padding-left: 4px;
+  margin-left: 5px;
+  border: 1px solid black;
+  display: inline-block;
+}
